@@ -24,12 +24,12 @@
 }
 
 .header__link {
-  text-decoration: none;
-  border-bottom: 1px solid #000;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .header__link_active {
-  border-bottom: none;
+  text-decoration: none;
 }
 
 .header__logo {
@@ -46,6 +46,11 @@
 .address {
   font-style: normal;
   line-height: 24.3px;
+}
+
+.address a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .header__address {
@@ -215,8 +220,8 @@
 .lots__look-more-link {
   margin-left: 40px;
   font-size: 20px;
-  border-bottom: 1px solid #000;
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .about {
@@ -284,12 +289,12 @@
 }
 
 .footer__menu-link {
-  text-decoration: none;
-  border-bottom: 1px solid #000;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .footer__menu-link_active {
-  border-bottom: none;
+  text-decoration: none;
 }
 
 .footer__social-list {
